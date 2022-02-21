@@ -1,9 +1,13 @@
 # 安装
 
+npm
+```
+npm install @dtlc/iconfont
+```
+
+yarn
 ```
 yarn add @dtlc/iconfont
-# or
-npm install @dtlc/iconfont
 ```
 
 # 使用

@@ -2,7 +2,7 @@
 
 npm
 ```
-npm install @dtlc/iconfont
+npm install -S @dtlc/iconfont
 ```
 
 yarn

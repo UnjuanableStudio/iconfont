@@ -1,11 +1,11 @@
 {
   "name": "@dtlc/iconfont",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue iconfont component via iconfont.cn",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/vue-mod/iconfont.git",
-  "author": "lc7457",
+  "repository": "https://github.com/dtlc/iconfont.git",
+  "author": "LeeNux",
   "devDependencies": {
     "vue": "^3.0"
   }

@@ -1,27 +1,29 @@
 # 安装
 
 npm
+
 ```
-npm install -S @dtlc/iconfont
+npm install -S @unjuanable/iconfont
 ```
 
 yarn
+
 ```
-yarn add @dtlc/iconfont
+yarn add @unjuanable/iconfont
 ```
 
 # 使用
 
-1.访问 iconfont.cn
+1. 访问 iconfont.cn
 
-https://www.iconfont.cn/
+   https://www.iconfont.cn/
 
 2. 创建图标项目
-3. 创建css的cdn链接
+3. 创建css的cdn链接(也可以下载后使用本地链接)
 
 ```
 // main.js
-import iconfont from '@dtlc/iconfont'
+import iconfont from '@unjuanable/iconfont'
 app.use(iconfont, '//at.alicdn.com/t/font_cdn_url.css')
 ```
 
@@ -41,7 +43,7 @@ required：true
 
 项目中设置的字体名称标识   
 required：false   
-default：'iconfont'   
+default：'iconfont'
 
 ### color
 

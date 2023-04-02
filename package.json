@@ -1,6 +1,6 @@
 {
   "name": "@unjuanable/iconfont",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue iconfont component via iconfont.cn",
   "main": "index.js",
   "license": "MIT",

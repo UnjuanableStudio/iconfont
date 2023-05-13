@@ -11,11 +11,12 @@ const install = function (app, cdn = null) {
 /**
  * 构造一个icon字体图标
  * @param type iconfont icon type
+ * @param size
  * @param family iconfont font family
  * @returns {string}
  */
-function icon(type, family = "iconfont") {
-    return `<i :class="${family} ${type}"></i>`
+function icon(type, size = 16, family = "iconfont") {
+    return `<i class="${family} ${type}" style="font-size:${size}"></i>`
 }
 
 function addIconByLink(url) {

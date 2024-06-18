@@ -5,21 +5,19 @@ const install = function (app, cdn = null) {
         addIconByLink(cdn)
     }
     app.component(iconfont.name, iconfont)
-    app.config.globalProperties.$iconfont = icon;
 }
 
 /**
  * 构造一个icon字体图标
  * @param type iconfont icon type
- * @param size
  * @param family iconfont font family
  * @returns {string}
  */
-function icon(type, size = 16, family = "iconfont") {
-    return `<i class="${family} ${type}" style="font-size:${size}"></i>`
+export function useIcon(type, family = "iconfont") {
+    return `<i :class="${family} ${type}"></i>`
 }
 
-function addIconByLink(url) {
+export function addIconByLink(url) {
     let doc = document;
     const link = doc.createElement("link");
     link.setAttribute("rel", "stylesheet");
@@ -36,5 +34,3 @@ function addIconByLink(url) {
 export default {
     install
 }
-
-export {iconfont, addIconByLink, icon}
